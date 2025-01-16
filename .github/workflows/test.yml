@@ -5,7 +5,7 @@ jobs:
   sprinters:
     # Edit and replace your-12-digit-aws-account-number.
     # Example: sprinters:aws/123456789012:ubuntu-latest
-    runs-on: sprinters:aws/your-12-digit-aws-account-number:ubuntu-latest
+    runs-on: sprinters:aws/864899852480:ubuntu-latest
 
     steps:
       - run: echo "Success! This job is running on a fresh EC2 instance in your AWS account using Sprinters!"
